@@ -1,0 +1,39 @@
+{ "margin" : 10,
+  "name" : "Demo Presentation",
+  "slides" : [ [ { "data" : "Hello World!",
+          "styles" : { "align" : "center",
+              "font" : "Ubuntu",
+              "stroke" : "#f00"
+            },
+          "type" : "banner"
+        },
+        { "data" : "I am Sankha",
+          "styles" : { "stroke" : "#666" },
+          "type" : "para"
+        },
+        { "data" : "Desktop/me.jpg",
+          "type" : "image"
+        }
+      ],
+      [ { "data" : "This is socks!",
+          "styles" : { "align" : "center",
+              "font" : "Ubuntu",
+              "stroke" : "#f00"
+            },
+          "type" : "banner"
+        },
+        { "data" : "The partner of Shoes in presentation. You just write a plain JSON File, and we take the pains of creating the presentation for you.",
+          "styles" : { "stroke" : "#666" },
+          "type" : "para"
+        }
+      ],
+      [ { "data" : "Desktop/missed_flight.gif",
+          "type" : "image"
+        },
+        { "data" : "while (true)\n\tI always miss my flights.",
+          "styles" : { "margin" : 20 },
+          "type" : "code"
+        }
+      ]
+    ]
+}
