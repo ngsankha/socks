@@ -12,4 +12,4 @@ Here is how it would look if you used the `example.json` file with Socks.
 
 ## Yee Haw!
 
-That was just to grab you attention. The implementation of Socks is still incomplete and I am working on it. Any kind of help is appreciated. Just for this repo, hack on it, and send me a pull request!
+That was just to grab your attention. The implementation of Socks is still incomplete and I am working on it. Any kind of help is appreciated. Just for this repo, hack on it, and send me a pull request!
