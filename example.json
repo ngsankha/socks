@@ -11,7 +11,7 @@
           "styles" : { "stroke" : "#666" },
           "type" : "para"
         },
-        { "data" : "Desktop/me.jpg",
+        { "data" : "res/me.jpg",
           "type" : "image"
         }
       ],
@@ -27,7 +27,7 @@
           "type" : "para"
         }
       ],
-      [ { "data" : "Desktop/missed_flight.gif",
+      [ { "data" : "res/missed_flight.gif",
           "type" : "image"
         },
         { "data" : "while (true)\n\tI always miss my flights.",

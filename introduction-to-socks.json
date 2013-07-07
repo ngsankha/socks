@@ -8,7 +8,8 @@
           "type" : "banner"
         },
         { "data" : "Simple: It's the partner of Shoes in presentations. It is a presentation tool for Shoes!",
-          "styles" : { "stroke" : "#666" },
+          "styles" : { "stroke" : "#666",
+              "align": "center" },
           "type" : "para"
         }
       ],
@@ -19,31 +20,43 @@
             },
           "type" : "banner"
         },
-        { "data" : "http://shoesrb.com/img/shoes-icon.png",
-          "type" : "image"
+        { "data" : "res/shoes-icon.png",
+          "type" : "image",
+          "styles" : { "center" : "true" }
         },
         { "data" : "Well in simple terms: Shoes is a GUI Toolkit originally developed by the legendary _why.",
-          "styles" : { "stroke" : "#666" },
+          "styles" : { "stroke" : "#666",
+              "align": "center" },
           "type" : "para"
-        },
-        { "data" : "http://shoesrb.com/img/why.png",
+        }
+      ],
+      [
+        { "data" : "res/why.png",
           "type" : "image"
         },
         { "data" : "Here's a bit of history:-",
           "styles" : { "stroke" : "#666" },
-          "type" : "para"
+          "type" : "title",
+          "styles" : { "align" : "center" }
         },
         { "data" : "Way way back in the day, there was a guy named _why. He created a project known as Hackety Hack to teach programming to everyone. In order to reach all corners of the earth, _why decided to make Hackety Hack work on Windows, Mac OS X, and Linux. This was a lot of work, and so _why decided to share his toolkit with the world. Thus, Shoes was born.",
-          "styles" : { "stroke" : "#666" },
+          "styles" : { "stroke" : "#666",
+              "align" : "center" },
           "type" : "para"
         },
         { "data" : "Everybody loved Shoes. Many apps were made, and put into The Shoebox, which no longer exists. But, one day, _why left. In his memory, Team Shoes assembled, and carried on making Shoes. They released Shoes 3 in late summer 2010.",
-          "styles" : { "stroke" : "#666" },
+          "styles" : { "stroke" : "#666",
+              "align" : "center" },
           "type" : "para"
         },
-        { "data" : "You can find more details about shoes here: http://shoesrb.com",
+        { "data" : "You can find more details about shoes at",
           "styles" : { "stroke" : "#666" },
-          "type" : "para"
+          "type" : "para",
+          "styles" : { "align" : "center" }
+        },
+        { "data" : "http://shoesrb.com",
+          "styles" : { "align" : "center" },
+          "type" : "link"
         }
       ],
       [{ "data" : "Hmm!! So Who made Socks?",
@@ -53,11 +66,11 @@
           },
           "type" : "banner"
         },
-        { "data" : "Why It was made by Sankha - The amazing geek from IIT!",
+        { "data" : "Why It was made by Sankha.",
           "styles" : { "stroke" : "#666" },
           "type" : "para"
         },
-        { "data" : "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/486285_4165534812653_996557981_n.jpg",
+        { "data" : "res/me.jpg",
           "type" : "image"
         },
         { "data" : "Psst! If you still can't identify him - He's the guy who always misses his flights! ;-)",
@@ -74,7 +87,7 @@
         },
         { "data" : "Again, It's pretty simple! You just write a plain JSON File, and we take the pains of creating the presentation for you.",
           "styles" : { "stroke" : "#666" },
-          "type" : "para"
+          "type" : "title"
         }
       ],
       [ { "data" : "Whoa!! I get it now! :)",
@@ -89,13 +102,13 @@
               "font" : "Ubuntu",
               "stroke" : "#f00"
             },
-          "type" : "banner"
+          "type" : "subtitle"
         },
         { "data" : "Ahh! I'm the friendly bugsmith, who likes this little tool and decided to talk about it!",
           "styles" : { "stroke" : "#666" },
           "type" : "para"
         },
-        { "data" : "http://sayak.in/images/avatar.png",
+        { "data" : "res/sayak.png",
           "type" : "image"
         },
         { "data" : "If you want to know more about me, checkout my website: http://sayak.in",

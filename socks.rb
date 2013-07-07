@@ -143,7 +143,7 @@ else
 
     puts "Loading GUI..."
 
-    @app = Shoes.app :title => prs["name"] do
+    @app = Shoes.app :title => prs["name"], :width => 800, :height => 600 do
         pos = 0
 
         margin = 0
